@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:fas="http://www.fasilitas/namespace/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="https://www.w3.org/TR/rdf-schema/">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.fasilitas/namespace/desc -->
+
+    <AnnotationProperty rdf:about="http://www.fasilitas/namespace/desc"/>
+    
+
+
+    <!-- http://www.fasilitas/namespace/gambar -->
+
+    <AnnotationProperty rdf:about="http://www.fasilitas/namespace/gambar"/>
+    
+
+
+    <!-- http://www.fasilitas/namespace/jenis -->
+
+    <AnnotationProperty rdf:about="http://www.fasilitas/namespace/jenis"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.fasilitas/namespace/fasilitas -->
+
+    <Class rdf:about="http://www.fasilitas/namespace/fasilitas"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.fasilitas.usu.com/Akomodasi -->
+
+    <NamedIndividual rdf:about="https://www.fasilitas.usu.com/Akomodasi">
+        <rdf:type rdf:resource="http://www.fasilitas/namespace/fasilitas"/>
+        <fas:desc>Akomodasi</fas:desc>
+        <fas:gambar>https://www.usu.ac.id/images/Fasiltas/Asrama_Putri_dalam.jpg</fas:gambar>
+        <fas:jenis> Asrama Putra, Asrama Putri </fas:jenis>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.fasilitas.usu.com/Medis -->
+
+    <NamedIndividual rdf:about="https://www.fasilitas.usu.com/Medis">
+        <rdf:type rdf:resource="http://www.fasilitas/namespace/fasilitas"/>
+        <fas:desc>Medis</fas:desc>
+        <fas:gambar>https://www.usu.ac.id/images/unit/RSUSU-1.jpg</fas:gambar>
+        <fas:jenis> Rumah Sakit USU, Poliklinik, RSPGM  </fas:jenis>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.fasilitas.usu.com/Olahraga -->
+
+    <NamedIndividual rdf:about="https://www.fasilitas.usu.com/Olahraga">
+        <rdf:type rdf:resource="http://www.fasilitas/namespace/fasilitas"/>
+        <fas:desc>Olahraga</fas:desc>
+        <fas:gambar>https://www.usu.ac.id/images/Fasiltas/pool2.jpg</fas:gambar>
+        <fas:jenis> Kolam renang, sarana kebugaran, softball, olahraga dalam ruangan, lintasan atletik, lapangan baseball, stadion </fas:jenis>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.fasilitas.usu.com/keagamaan -->
+
+    <NamedIndividual rdf:about="https://www.fasilitas.usu.com/keagamaan">
+        <rdf:type rdf:resource="http://www.fasilitas/namespace/fasilitas"/>
+        <fas:desc>Keagamaan</fas:desc>
+        <fas:gambar>https://www.usu.ac.id/images/Fasiltas/gereja.jpg</fas:gambar>
+        <fas:jenis> Mesjid, Gereja, Ruang Keagamaan </fas:jenis>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.fasilitas.usu.com/transportasi -->
+
+    <NamedIndividual rdf:about="https://www.fasilitas.usu.com/transportasi">
+        <rdf:type rdf:resource="http://www.fasilitas/namespace/fasilitas"/>
+        <fas:desc>Transportasi</fas:desc>
+        <fas:gambar>https://www.usu.ac.id/images/Fasiltas/bus1.jpg</fas:gambar>
+        <fas:jenis> BUS Usu, Sepeda USU  </fas:jenis>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.fasilitas.usu.com/Balai%20pertemuan -->
+
+    <NamedIndividual rdf:about="https://www.fasilitas.usu.com/Balai%20pertemuan">
+        <rdf:type rdf:resource="http://www.fasilitas/namespace/fasilitas"/>
+        <fas:desc>Balai Pertemuan</fas:desc>
+        <fas:gambar>https://www.usu.ac.id/images/Fakultas/Fak_NewPhoto/Auditorium_USU.jpg</fas:gambar>
+        <fas:jenis> Auditorium, Gelanggang Mahasiswa, Gedung Pancasila </fas:jenis>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.fasilitas.usu.com/Ruang%20Belajar -->
+
+    <NamedIndividual rdf:about="https://www.fasilitas.usu.com/Ruang%20Belajar">
+        <rdf:type rdf:resource="http://www.fasilitas/namespace/fasilitas"/>
+        <fas:desc>Ruang Belajar</fas:desc>
+        <fas:gambar>https://www.usu.ac.id/images/Fasiltas/difable_akses_H_anif_1_Custom.jpg</fas:gambar>
+        <fas:jenis> Ruang Kelas, Laboratorium</fas:jenis>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.fasilitas.usu.com/akses%20disabilitas -->
+
+    <NamedIndividual rdf:about="https://www.fasilitas.usu.com/akses%20disabilitas">
+        <rdf:type rdf:resource="http://www.fasilitas/namespace/fasilitas"/>
+        <fas:desc>Akses Disabilitas</fas:desc>
+        <fas:gambar>https://www.usu.ac.id/images/Fasiltas/difable_akses_H_anif_1_Custom.jpg</fas:gambar>
+        <fas:jenis> akses disabilitas</fas:jenis>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
